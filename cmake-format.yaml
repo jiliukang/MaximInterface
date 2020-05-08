@@ -1,0 +1,8 @@
+additional_commands:
+  find_package_handle_standard_args:
+    flags: [HANDLE_COMPONENTS, CONFIG_MODE]
+    kwargs:
+      FOUND_VAR: 1
+      REQUIRED_VARS: '+'
+      VERSION_VAR: 1
+      FAIL_MESSAGE: 1

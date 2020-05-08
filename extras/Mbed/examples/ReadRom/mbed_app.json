@@ -1,0 +1,12 @@
+{
+  "config": {
+    "sda_pin": { "required": true },
+    "scl_pin": { "required": true }
+  },
+  "target_overrides": {
+    "MAX32625MBED": {
+      "sda_pin": "P1_6",
+      "scl_pin": "P1_7"
+    }
+  }
+}
