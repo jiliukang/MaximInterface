@@ -57,6 +57,7 @@ public:
     InvalidOperationError = 0x55,
     InvalidParameterError = 0x77,
     DeviceDisabledError = 0x88,
+    EntropyHealthTestError = 0xDD,
     AuthenticationError = 0x100,
     InvalidResponseError ///< Command response does not match expected format.
   };

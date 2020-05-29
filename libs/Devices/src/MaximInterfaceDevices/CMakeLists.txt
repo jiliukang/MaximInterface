@@ -34,6 +34,8 @@ add_library(MaximInterfaceDevices
             "Config.hpp"
             "DS18B20.cpp"
             "DS18B20.hpp"
+            "DS28C16.cpp"
+            "DS28C16.hpp"
             "DS28C36_DS2476.cpp"
             "DS28C36_DS2476.hpp"
             "DS28C39.cpp"

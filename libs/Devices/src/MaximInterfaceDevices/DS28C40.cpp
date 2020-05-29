@@ -588,6 +588,9 @@ const error_category & DS28C40::errorCategory() {
 
       case InvalidResponseError:
         return "Invalid Response Error";
+
+      case EntropyHealthTestError:
+        return "Entropy Health Test Error";
       }
       return defaultErrorMessage(condition);
     }

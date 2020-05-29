@@ -35,7 +35,7 @@ cmake_minimum_required(VERSION 3.13)
 include(CMakePackageConfigHelpers)
 include(GNUInstallDirs)
 
-project(MaximInterface LANGUAGES CXX VERSION 2.1)
+project(MaximInterface LANGUAGES CXX VERSION 2.2)
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 set(EXPORT_INSTALL_DIR "${CMAKE_INSTALL_LIBDIR}/cmake/MaximInterface")
 option(BUILD_SHARED_LIBS "Build supported targets as a shared library." OFF)
