@@ -1,0 +1,14 @@
+image: alpine
+
+pages:
+  script:
+    - apk update
+    - apk add build-base cmake doxygen ttf-freefont graphviz
+    - cmake -S . -B build
+    - doxygen build/Doxyfile
+    - mv build/docs/html/ public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
